@@ -1,32 +1,44 @@
-🏠 Real Estate Price Prediction & Recommendation App
+# 🏠 Real Estate Price Prediction & Recommendation App
 
-A Machine Learning-powered web application that helps users:
+A **Machine Learning-powered web application** that helps users:
 
-📊 Predict real estate prices
-📈 Analyze housing data
-🏢 Get apartment recommendations
+- 📊 Predict real estate prices  
+- 📈 Analyze housing data  
+- 🏢 Get apartment recommendations  
 
-This project is built using Python, Machine Learning, and Streamlit to provide an interactive and user-friendly experience.
+This project is built using **Python, Machine Learning, and Streamlit** to provide an interactive and user-friendly experience.
 
-🚀 Features
-🔹 Price Prediction
-Predict property prices based on user inputs
-Uses trained ML model (pipeline.pkl)
-🔹 Data Analysis
-Provides visual insights using data visualization
-Helps understand trends in the housing market
-🔹 Apartment Recommendation
-Recommends similar apartments using similarity models
-Uses cosine similarity (cosine_sim.pkl)
+---
 
-🛠️ Tech Stack
-Frontend: Streamlit
-Backend: Python
-Machine Learning: Scikit-learn
-Data Handling: Pandas, NumPy
-Visualization: Matplotlib, Seaborn
+## 🚀 Features
 
-📂 Project Structure
+### 🔹 Price Prediction
+- Predict property prices based on user inputs  
+- Uses trained ML model (`pipeline.pkl`)  
+
+### 🔹 Data Analysis
+- Provides visual insights using data visualization  
+- Helps understand trends in the housing market  
+
+### 🔹 Apartment Recommendation
+- Recommends similar apartments using similarity models  
+- Uses cosine similarity (`cosine_sim.pkl`)  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit  
+- **Backend:** Python  
+- **Machine Learning:** Scikit-learn  
+- **Data Handling:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+
+---
+
+## 📂 Project Structure
+
+```
 Real-Estate-App/
 │── datasets/
 │   ├── data_viz1.csv
@@ -46,11 +58,31 @@ Real-Estate-App/
 │── df.pkl
 │── latlong_scraper.py
 │── requirements.txt
+```
 
-⚙️ How to Run
+---
+
+## ⚙️ How to Run
+
+```bash
 git clone https://github.com/12Abhinagar/Real-Estate-App.git
 cd Real-Estate-App
+
 python -m venv venv
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 streamlit run Home.py
+```
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Nagar**  
+- B.Tech CSE (2023–2027)  
+- Strong interest in Data Science & Problem Solving  
+- Solved 700+ DSA problems  
+
+---
